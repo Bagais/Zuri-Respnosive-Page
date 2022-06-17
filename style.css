@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 100%, 74%);
+    height: 800px;
+
+}
+
+footer {
+    background-color: #B1BCE6;
+    padding: 20px;
+}
+
+table {
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    width: 100%; height: 80%;
+    padding: 30px;
+    box-shadow: 0 5px #999;
+}
+
+.cnt-process {
+    display: grid;
+    grid-template-columns: 60%;
+    align-self: right;
+    background-color: #B1BCE6;
+}
+
+
+button {
+    width: 100%; height: 40px;
+    background-color: hsl(248, 32%, 49%);
+    border: none; border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 5px #999;
+}
+
+.regButt {
+    width: 95%; height: 40px;
+    background-color: hsl(154, 59%, 51%);
+    border: none; border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.intro {
+    color: red;
+}
+
+header {
+    margin: 0;
+    overflow: hidden;
+}
+
+nav {
+    background-color: #F1F0C0;
+
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+nav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    width: 25% 25% 25% 25%;
+}
+
+
+.active {
+    background-color: lightblue;
+}
+
+
+
+.cent {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: inherit;
+}
+
+main {
+    display: flex;
+    margin: auto;
+    width: 80%; height: 80%;
+    padding-top: 80px;
+}
+
+div {
+    width: 100%;
+    color: white;
+    margin: auto;
+    padding: 30px;
+
+}
+
+form {
+    width: 100%;
+
+}
+
+input {
+    padding-left: 20px;
+}
+
+#fName, #lName, #email, #password {
+    height: 30px; width: 90%;
+}
+
+h2 {
+    font-size: 40px;
+
+}
+
+h6 {
+    color: hsl(246, 25%, 77%);
+}
+
+@media (max-width: 375px) {
+    body {
+        background-color: hsl(0, 100%, 74%);
+        height: 1000px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 375px; height: 1000px;
+        padding-top: 10px;
+        margin: auto;
+        text-align: center;
+    }
+
+    div {
+        width: 50%;
+        color: white;
+        margin: auto;
+        padding: 30px;
+    }
+
+    form {
+        width: 80%;
+        margin: auto;
+
+    }
+    table {
+        border-radius: 10px;
+        background-color: white;
+        width: 100%; height: 80%;
+        padding: 30px;
+        box-shadow: 0 5px #999;
+    }
+    button {
+        width: 250px; height: 40px;
+        background-color: hsl(248, 32%, 49%);
+        border: none; border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        box-shadow: 0 5px #999;
+    }
+
+}
+
+
